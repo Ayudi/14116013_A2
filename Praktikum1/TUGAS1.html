@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praktikum Web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin : 0;
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: #FF4500;
+            width: 784px;
+            height: 200px;
+            border-style: solid;
+        }
+
+        header h1{
+            font-size: 40px;
+            padding: 10px;
+        }
+        header p{
+            font-size: 20px;
+            padding: 30px 10px 10px 10px;
+        }
+
+        aside{
+            float: left;
+            width: 200px;
+            height: auto;
+            background-color: #FFFF00;
+            border-style: solid;
+        }
+
+        content{
+            float: left;
+            background-color: #FA8072;
+            width: 584px;
+            height: auto;
+            padding: 0px;
+            border-style: solid;
+            
+        }
+        a:hover{
+            color: #FF0000;
+        }
+
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer{
+            background-color: blue;
+            padding: 10px;
+            width: 784px;
+            height: 100px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PRAKTIKUM WEB</h1>
+
+    </header>
+
+    <section>
+        <aside>
+            <ul>
+                <li><a href="#">Belajar Html</a></li>
+                <li><a href="#">Belajar CSS</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">AJAX</a></li>
+            </ul>
+        </aside>
+
+        <content>
+            <article>
+            <h3>PEMROGRAMAN </h3>
+                    Pemrograman adalah proses menulis, menguji dan memperbaiki (debug), dan memelihara kode yang membangun suatu program komputer.[1] Kode ini ditulis dalam berbagai bahasa pemrograman. Tujuan dari pemrograman adalah untuk memuat suatu program yang dapat melakukan suatu perhitungan atau 'pekerjaan' sesuai dengan keinginan si pemrogram. Untuk melakukan pemrograman, diperlukan keterampilan dalam algoritme, logika, bahasa pemrograman, dan pada banyak kasus, pengetahuan-pengetahuan lain seperti matematika.
+
+Pemrograman adalah suatu seni dalam menggunakan satu atau lebih algoritme yang saling berhubungan dengan menggunakan suatu bahasa pemrograman tertentu sehingga menjadi suatu program komputer. Bahasa pemrograman yang berbeda mendukung gaya pemrograman yang berbeda pula. Gaya pemrograman ini biasa disebut paradigma pemrograman.
+
+Apakah memprogram perangkat lunak lebih merupakan seni, ilmu, atau teknik telah lama diperdebatkan. Pemrogram yang baik biasanya mengkombinasikan ketiga hal tersebut, agar dapat menciptakan program yang efisien, baik dari sisi saat dijalankan (run time) atau memori yang digunakan.
+            </article>
+            border-box
+            <form name="input" action="" method="POST">
+                <div>
+                    <label>Nama Lengkap</label>
+                    <input type="name" name="nama">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="Password" name="pwd">
+                </div>
+                <div>
+                    <label>Jenis Kelamin</label><br>
+                    <input type="radio" name="sex" value="male">Laki-Laki <br>
+                    <input type="radio" name="sex" value="female">Perempuan <br>
+                </div>
+                <div>
+                    <label>Agama</label>
+                    <select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Status</label><br>
+                    <input type="checkbox" name="menikah">Menikah <br>
+                    <input type="checkbox" name="belum menikah">Belum Menikah <br>
+                </div>
+
+                <div>
+                    <label>alamat</label>
+                    <textarea rows="5" cols="80"></textarea>
+                </div>
+
+                <input type="submit" value="submit">
+            </form>
+        </content>
+    </section>
+    <footer>copyrights.MUHAMMAD WAHYUDI - 14116013</footer>
+</body>
+</html>
