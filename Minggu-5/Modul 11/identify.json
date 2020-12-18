@@ -1,0 +1,20 @@
+{
+    "name": {
+        "first": "Muhammad",
+        "last": "Wahyudi"
+    },
+    "gender": "Laki-laki",
+    "saudara": {
+        "first": "Nur",
+        "second": "Rahman"
+    },
+    "orangtua": {
+        "ayah": "Muhammad",
+        "ibu": "Siti"
+    },
+    "hobby": ["Nonton", "Traveling"],
+    "alamat": "Kedaton, Bandar Lampung",
+    "social_media": {
+        "instagram": "instagram.com/muhammadwahyudi013"
+    }
+}

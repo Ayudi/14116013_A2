@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <name>
+    <first>Muhammad</first>
+    <last>Wahyudi</last>
+  </name>
+  <gender>Laki-laki</gender>
+  <saudara>
+    <first>Nur</first>
+    <second>Rahman</second>
+  </saudara>
+  <orangtua>
+    <ayah>Muhammad</ayah>
+    <ibu>Siti</ibu>
+  </orangtua>
+  <hobby>Nonton</hobby>
+  <hobby>Traveling</hobby>
+  <alamat>Kedaton, Bandar Lampung</alamat>
+  <social_media>
+    <linkedin>instagram.com/muhammadwahyudi013</linkedin>
+  </social_media>
+</root>
